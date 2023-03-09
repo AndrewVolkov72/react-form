@@ -1,0 +1,19 @@
+.form {
+  padding: 48px 72px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+.form__title {
+  color: #101012;
+  font-size: 28px;
+  text-align: center;
+}
+.form > * {
+  margin-bottom: 24px;
+}
+.form > *:last-child {
+  margin-bottom: 0;
+}

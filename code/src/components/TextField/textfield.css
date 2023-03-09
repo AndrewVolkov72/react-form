@@ -1,0 +1,16 @@
+.textfield {
+  color: #5A5A5D;
+  border: 1px solid #BEBEBF;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  padding: 16px;
+  font-family: sans-serif;
+  resize: none;
+  height: 80px;
+  width: 100%;
+}
+
+.textfield.error {
+  border-color: #C03221;
+}

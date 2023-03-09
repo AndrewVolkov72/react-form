@@ -1,0 +1,46 @@
+.input {
+  color: #5A5A5D;
+  border: 1px solid #BEBEBF;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  padding: 0 16px;
+  height: 48px;
+  width: 100%;
+}
+
+/* remove arrow input type num */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input.error {
+  border-color: #C03221;
+}
+.input__error {
+  color: #C03221;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.input__helper {
+  margin-top: 2px;
+  font-size: 12px;
+}
+.input__required {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.required {
+  color: #C03221;
+  font-size: 16px;
+}
+.input__correct {
+  font-size: 12px;
+  margin-top: 2px;
+}
+.input-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

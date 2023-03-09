@@ -1,0 +1,14 @@
+.alert {
+  padding: 19px;
+  background-color: #84D65A;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #2B641E;
+  font-size: 20px;
+  position: absolute;
+  z-index: 99999;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
